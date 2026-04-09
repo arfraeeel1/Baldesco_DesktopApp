@@ -5,7 +5,8 @@ import java.util.ArrayList;
 public class RegisterForm extends JFrame {
     private JTextField txtUsername = new JTextField();
     private JPasswordField txtPassword = new JPasswordField();
-
+    private RoundedButton btnRegister = new RoundedButton("Register");
+    private RoundedButton btnLogin = new RoundedButton("Go to Login");
 
     public static ArrayList<User> users = new ArrayList<>();
 
