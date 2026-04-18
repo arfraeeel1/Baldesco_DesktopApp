@@ -26,13 +26,13 @@ public class Dashboard extends JFrame {
         user.setFont(new Font("Segoe UI", Font.BOLD, 14));
         sidebar.add(user);
 
-        JButton btnHome = glassButton("Home", 70);
-        JButton btnProfile = glassButton("Profile", 120);
-        JButton btnSettings = glassButton("Settings", 170);
+        JButton btnUser = glassButton("Arfrael Baldesco", 70);
+        JButton btnAge = glassButton("20", 120);
+        JButton btnSection = glassButton("2nd Year - A", 170);
 
-        sidebar.add(btnHome);
-        sidebar.add(btnProfile);
-        sidebar.add(btnSettings);
+        sidebar.add(btnUser);
+        sidebar.add(btnAge);
+        sidebar.add(btnSection);
 
         JPanel main = new JPanel();
         main.setBounds(240, 20, 520, 420);
@@ -46,7 +46,7 @@ public class Dashboard extends JFrame {
         title.setFont(new Font("Segoe UI", Font.BOLD, 24));
         main.add(title);
 
-        JButton logout = new JButton("DIRI ANG LOGOUT");
+        JButton logout = new JButton("LOGOUT");
         logout.setBounds(200, 300, 120, 40);
         logout.setBackground(new Color(180, 0, 255));
         logout.setForeground(Color.WHITE);
