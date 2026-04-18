@@ -54,10 +54,8 @@ public class RegisterForm extends JFrame {
             dispose();
             new LoginForm();
         });
-
         setVisible(true);
     }
-
     private void registerUser() {
         String username = txtUsername.getText();
         String password = String.valueOf(txtPassword.getPassword());
@@ -73,7 +71,6 @@ public class RegisterForm extends JFrame {
                 return;
             }
         }
-
         users.add(new User(username, password));
         JOptionPane.showMessageDialog(this, "Registration Successful!", "Success", JOptionPane.INFORMATION_MESSAGE);
         dispose();
